@@ -1,0 +1,18 @@
+@(message: String)
+
+@import views.html.fomulario._
+
+@message
+
+@form("Form prueba", routes.Application.prueba ){
+	<br>
+	@textbox("textbox_prueba","defecto")
+	<br>
+	@dropdown("ddown",List(("hola","Hola"),("que","Que"),("hace","Hace")))
+	<br>
+	@imagen("imagen", routes.Assets.at("images/favicon.png"))
+	<br>
+	@listbox("lbox",false,List(("hola","Hola"),("que","Que"),("hace","Hace")))
+	<br>
+	@boton("submit")
+}

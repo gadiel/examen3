@@ -1,0 +1,6 @@
+@(name: String, valores: List[(String, String)])
+<select name="@name">
+@for((valor, texto) <- valores) {
+	<option value="@valor">@texto</option>
+}
+</select>

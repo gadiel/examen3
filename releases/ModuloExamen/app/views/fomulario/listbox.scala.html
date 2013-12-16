@@ -1,0 +1,12 @@
+@(name: String, multiple: Boolean = false, values: List[(String, String)])
+<select name="@name" 
+@if(multiple==false) {
+	multiple="multiple" 
+} else {
+	size="4" 
+}
+>
+@for((valor, texto) <- values) {
+	<option value="@valor">@texto</option>
+}
+</select>
