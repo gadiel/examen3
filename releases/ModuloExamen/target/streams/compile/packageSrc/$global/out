@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mPackaging C:\Users\Gadiel\Documents\examen3\releases\ModuloExamen\target\scala-2.10\moduloexamen_2.10-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Gadiel\Documents\examen3\releases\ModuloExamen\conf\application.conf[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Gadiel\Documents\examen3\releases\ModuloExamen\conf\routes[0m
+[0m[[0mdebug[0m] [0m	controllers\Application.scala[0m
+[0m[[0mdebug[0m] [0m	  C:\Users\Gadiel\Documents\examen3\releases\ModuloExamen\app\controllers\Application.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
